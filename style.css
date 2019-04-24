@@ -23,10 +23,13 @@ a:hover {
 }
 
 .wrapper {
+  display: flex;
+  align-items: center;
   width: 100%;
-  align-content: center;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
-  margin-top: 50px;
 }
 
 .container {
@@ -46,6 +49,7 @@ a:hover {
   width: 60%;
   margin: 0 auto;
 }
+
 
 @media (max-width: 970px) {
   body {

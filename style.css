@@ -51,7 +51,6 @@ a:hover {
   margin: 0 auto;
 }
 
-
 @media only screen and (max-width: 1024px) {
   body {
     background-size: cover;
@@ -64,5 +63,10 @@ a:hover {
 @media only screen and (max-width: 450px) {
   .main-img {
     max-width: 200px;
+  }
+
+  div.DSSinglePlayer {
+    width: 200px;
+    height: 200px;
   }
 }
